@@ -35,11 +35,12 @@ python scripts/evaluate.py
 Génère `artifacts/report.json` avec le rapport de classification complet.
 
 ## Structure du projet
+```
 mlops-ml-project/
 ├── config/
 │   └── train.yaml          # Configuration entraînement
 ├── src/
-│   ├── init.py
+│   ├── __init__.py
 │   ├── data.py             # Chargement données
 │   ├── features.py         # Prétraitement
 │   └── model.py            # Définition modèle
@@ -52,6 +53,7 @@ mlops-ml-project/
 ├── data/                   # Données (non versionné)
 ├── README.md
 └── requirements.txt
+```
 
 ## Configuration
 
