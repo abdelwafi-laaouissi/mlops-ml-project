@@ -8,7 +8,7 @@ split:
   random_state: 42
 
 model:
-  name: "random_forest"
-  n_estimators: 100
+  name: "logistic_regression"
+  max_iter: 2000
 
 artifacts_dir: "artifacts"
